@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectors2</title>
+    <link rel="stylesheet" href="selectors.css">
+</head>
+
+<body>
+    <header>
+        <a href="#HOME">HOME</a>
+        <a href="#ABOUT">ABOUT</a>
+        <a href="#SKILLS">SKILLS</a>
+        <a href="#PORTFOLIO">PORTFOLIO</a>
+        <a href="#CONTACT">CONTACT</a>
+    </header>
+    <div class="parent">
+        <div class="parent1">
+            <h1>Welcome to My Portfolio</h1>
+        </div>
+        <div class="parent2">
+            <h1 id="ABOUT">About me</h1>
+            <div class="content-1">
+                <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRN_YLneDIMiLFQizeNOh3Y9bQs4a5nzAoD24ROXw-6zVQ7UZ-l"
+                    alt="" width="100px" height="120px">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus at architecto ratione vitae
+                    deleniti harum.</p>
+            </div>
+        </div>
+        <div class="parent3">
+            <h2 id="SKILLS">My Skills</h2>
+            <table border="1" cellspacing="0" cellpadding="7" width="100%" style="border: 0px solid white;">
+                <thead>
+                    <tr>
+                        <th>Skills</th>
+                        <th>Proficiency</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Expert</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Advanced</td>
+                    </tr>
+                    <tr>
+                        <td>JAVA SCRIPT</td>
+                        <td>Intermediate</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="parent4">
+            <h2 id="PORTFOLIO">My Work</h2>
+            <div class="boxparent">
+                <div class="box">
+                    <img src="" alt="project1">
+                    <h3>Project one</h3>
+                    <p>Discription of Project one</p>
+                </div>
+                <div class="box">
+                    <img src="" alt="project2">
+                    <h3>Project two</h3>
+                    <p>Discription of Project two</p>
+                </div>
+                <div class="box">
+                    <img src="" alt="project3">
+                    <h3>Project three</h3>
+                    <p>Discription of Project three</p>
+                </div>
+            </div>
+        </div>
+        <div class="parent5">
+            <h2 id="CONTACT">Contact me</h2>
+            <label for="Name">Name:</label> <br>
+            <input type="text" id="Name"> <br> <br>
+            <label for="email">Email:</label> <br> <br>
+            <input type="email" id="email"> <br> <br>
+            <label for="subject">Subject:</label> <br>
+            <input type="text" id="subject"> <br> <br>
+            <label for="message">Message:</label> <br>
+            <textarea id="message"></textarea> <br> <br>
+            <button>Send Message</button>
+        </div>
+
+    </div>
+    <footer> &#169; 2024 My Portfolio</footer>
+
+</body>
+
+</html>
